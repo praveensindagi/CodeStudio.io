@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|PT+Sans|Roboto|Stylish" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<style>
+    *{
+        margin: 0%;
+        font-family: 'PT Sans', sans-serif;
+font-famil: 'Roboto', sans-serif;
+font-famil: 'Baloo Bhai', cursive;
+font-famil: 'Stylish', sans-serif;
+    }
+    .header{
+        width: 100%;
+        height:790px;
+         background: url(ab.gif);
+        
+    }
+.about{
+    width: 100%;
+    height: 300px;
+    background-color:#13a7e2;
+}
+
+
+ .bar2,.bar1, .bar3 {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(19, 151, 228);
+  margin: 6px 0;
+  transition: 0.4s;
+
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+  border-bottom-right-radius: 
+}
+.change .bar2 {opacity: 0;}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.fort{
+    width: 100%;
+    height: auto;
+    
+}
+ul li a{
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+   
+}
+ul li a:hover{
+    border-bottom: #00d2ff 1px solid    ;
+}
+.me{
+    font-size: 46px;
+    color: white;
+    padding: 300px 0px 0px 100px ;
+    font-family: 'Baloo Bhai', cursive;
+}
+.button{
+    font-size: 25px;
+    color: white;
+    
+
+    
+    padding: 10px 0px 0px 300px;
+    
+
+    
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    
+    color: rgb(56, 54, 54);
+    padding: 40px 10px 0px 80px;
+}
+p{
+    padding: 0px 10px 10px 20px;
+    color: rgb(126, 123, 123);
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.col-sm-4
+{
+    width: 100%;
+    height: auto;
+    
+}
+.col-sm-4:hover{
+    border-bottom:#4b4b4b 2.5px solid;
+}
+.background{
+    background: linear-gradient(38deg,#00d2ff,#3a7bd5);
+    width: 100%;
+    height: auto;
+    
+    
+}
+.head{
+    font-size: 12px;
+}
+
+input{
+    width: 280px;
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom:black 2px solid;
+
+
+    
+}
+::placeholder{
+    color: rgb(34, 32, 32);
+   
+}
+label{
+    color: white;
+    font-size: 20px;
+    font-display: 'Baloo Bhai', cursive;
+}
+.logo i{
+    padding: 30px 130px ;
+    color:#3c40c6;
+}
+.w{
+    padding: 5px 100px ;
+}
+.e{
+    padding: 5px 40px ;
+}
+.q{
+    padding: 5px 120px ;
+}
+.it{
+    padding: 5px 120px ;
+}
+.m{
+    padding: 5px 70px ;
+}
+.d{
+    padding: 5px 70px;
+}
+h6{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.col-xs-6{
+   width:  100%;
+   height: 150px;
+}
+.col-md-4{
+    text-align: center;
+    justify-content: center;
+    box-align: center;
+
+}
+
+.ilogo{
+    padding: 5px 150px;
+}
+footer{
+    background-color:#ebf3f3;
+    height: auto;
+    border-bottom: black 3px solid;
+}
+ul{
+    list-style-type: none;
+}
+h4{
+    border-top: 40px;
+    border-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+
+}
+.nam{
+    padding: 250px 80px ;
+    font-family: 'Stylish', sans-serif;
+    font-size: 30px;
+    color:white;
+    
+}
+.head ,.name ,.mail, .subject , .messege{
+    padding: 10px 45px;
+}
+.submit{
+    padding: 10px 60px;
+}
+@media screen and (max-width: 600px) {
+  .me{
+      font-size: 18px;
+      padding:200px 0px 0px 20px;
+  }
+  p{
+      
+      padding: 5px 60px;
+  }  .col-sm-4{
+      
+  }
+  
+}
+
+</style>
+<body>
+        <div class="header">
+                <nav class="navbar navbar-expand-sm fixed-top  " id="nav">
+                    <a href="#" class="navbar-brand" style="padding: 5px;width:75px;;background:royalblue;color:white;border-top-left-radius:10px; border-bottom-right-radius:10px;">Pioxno </a>
+                    <div  class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu"  onclick="myFunction(this)">
+                        <div class="round">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div></div>
+                          
+            
+                    
+                    
+                    <div class="collapse navbar-collapse " id="navbarMenu" >
+                      <div class="container">
+                        <ul class="navbar-nav ">
+                            
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="font">TECHNOLOGIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link"id="fo">INDUSTRIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="fone">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="fon">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="fot">CLIENTS</a>
+                            </li>
+                            <li class="nav-item">
+                              
+                                    <a href="#" class="nav-link"id="for">COMPANY</a>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" style="flaot:right;"><span class=""></span></a>
+                            </li>
+                        </ul></div>
+                    </div>
+            
+            </nav>
+        <div class="back">
+            <div class="box ">
+                
+                  <p class="me"><h2>Software Development Company</h2>
+                  <p>We Build Better Software Today <br>
+                        For Your Better Tomorrow</p>
+                  
+                               
+
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4" >
+              <div class="Web Development">
+                  <div class="logo">
+                        <i class="fas fa-laptop-code fa-4x pr-3 "></i>
+                  </div>
+                  <div class="des">
+                      <h6 class="w">Web Development</h6>
+                      <p>We build software in 2-week increments, 
+                          getting your feedback and applying your changes 
+                          so we deliver the best results in budget.</p>
+                  </div>
+
+              </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="Database Management">
+                   <div class="logo">
+                        <i class="fas fa-database fa-4x"></i>
+                </div>
+                <div class="des">
+                    <h6 class="d">Database Management</h6>
+                    <p>
+                            In a data-driven world, the need for data platforms to be open, 
+                            secure and flexible to your needs is more important than ever.
+                    </p>
+                    
+                </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="Mobile App Development">
+                        <div class="logo">
+                                <i class="fas fa-mobile  fa-4x"></i>
+                            </div>
+                            <div class="des">
+                                <h6 class="m">
+                                    Mobile App Development
+                                </h6>
+                                <p>
+                                        Mobile App Development
+                                        Create an impactful mobile app that
+                                         fits your brand and industry within
+                                          a shorter time frame.
+                                </p>
+                                
+                            </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="row ">
+            <div class="col-sm-4">
+              <div class="QA & Testing">
+                    <div class="logo">
+                            <i class="fas fa-recycle fa-4x"></i>
+                        </div>
+                        <div class="des">
+                            <h6 class="q"> 
+                                QA & Testing
+                            </h6>
+                            <p>
+                                    
+                                    Turn to our experts to perform comprehensive,
+                                     multi-stage testing and auditing of your software.
+                            </p>
+                            
+                        </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="IT services">
+                        <div class="logo">
+                                <i class="fas fa-server fa-4x"></i>
+
+                            </div>
+                            <div class="des">
+                                <h6 class="it">IT Services</h6>
+                                <p>
+                                    
+                                        Trust our top minds to eliminate workflow pain points,
+                                         implement new tech, and consolidate app portfolios.
+                                </p>
+                            </div>
+                </div>
+            </div>
+           
+            <div class="col-sm-4">
+                    <div class="Enterprise Software Development">
+                            <div class="logo">
+                                    <i class="fas fa-desktop  fa-4x"></i>
+                                </div>
+                                <div class="des">
+                                    <h6 class="e">
+                                            Enterprise Software Development
+                                    </h6>
+                                    <p>
+                                            
+                                            Create complex enterprise software, 
+                                            ensure reliable software integration,
+                                             modernise your legacy system.
+                                    </p>
+                                </div>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+
+
+
+
+    
+            
+        <div class="background mt-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="visual">
+                        <h6 class="nam">    Learn how we can Transform your Business
+                             <br><a href="Learn.html"><strong style="border: white 1px solid;font-size:18px; padding :10px 25px ;">Learn More</strong><a> <br>
+                               
+                        </h6>
+                            
+                    </div>
+                     
+                </div>
+                <div class="col-sm-6">
+                    <div class="form">
+                        <div class="head">
+                          <h4>Contact Us</h4>
+                        </div>
+                        <div class="name mt-2">
+                                <label for="name"> <i class="fas fa-pen" style="font-size:20px;color:black;"></i></label>
+                                <br>
+                                
+                                 <input type="text" placeholder="Enter your Name">
+                            
+                        </div>
+                        <div class="mail mt-2">
+                                <label for="mail"> <i class="far fa-envelope" style="font-size:20px;color:black;"></i></label>
+                                 <br>
+                                        <input type="text" placeholder="Enter your Email">
+                            
+                        </div>
+                        <div class="subject mt-2">
+                            <label for="subject"> <i class="fas fa-pen" style="font-size:20px;color:black;"></i> </label>
+                             <br>
+                            <input type="text" placeholder="Enter The The Subject">
+                        
+                        </div>
+                        <div class="messege mt-2">
+                            
+                                <label for="message"><i class="far fa-comment" style="font-size:20px;color:black;"></i> </label>
+                                <br>
+                            <input type="text" placeholder="Write a message">
+                        </div>
+                        <div class="submit mt-3">
+                               <div class="btn btn-primary center mb-5" style="width:100px;"> <i class="far fa-paper-plane"></i> Send </div>
+                        </div>
+
+                    </div>
+                      </div>
+        </div>
+    
+        </div>
+     <div class="container">
+         <h2 class="mee mt-5" style="color:rgb(175, 174, 174);">
+             Industries We Impact
+         </h2>
+     </div>
+    <div class="container mt-5">
+        
+            <div class="row mt-5">
+               <div class="col-sm-4 col-xs-6">
+                    <div class="ilogo">
+                            <i class="fas fa-hospital fa-3x mt-3"style="color:#009432";></i>
+                    </div>
+                    <div class="pi">
+                         <p>Helth & Care</p>
+                    </div>
+               </div>
+               <div class="col-sm-4  col-xs-6">
+                    <div class="ilogo">
+                            <i class="fas fa-shopping-cart fa-3x mt-3"style="color:#fd79a8";></i>
+                    </div>
+                    <div class="pi">
+                        <p>Retail & E-Commarce</p>
+                    </div>
+            </div>
+            <div class="col-sm-4  col-xs-6">
+                    <div class="ilogo">
+                            <i class="fas fa-university fa-3x mt-3"style="color:#6c5ce7";></i>
+                        </div>
+                        <div class="pi">
+                          <p>Education</p>
+                            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-4  col-xs-6">
+                    <div class="ilogo">
+                            <i class="fas fa-fighter-jet fa-3x mt-3"style="color:#0984e3";></i>
+                        </div>
+                        <div class="pi">
+                          <p>Travel</p>
+                            </div>
+                </div>
+                <div class="col-sm-4  col-xs-6">
+                        <div class="ilogo">
+                                <i class="far fa-futbol fa-3x mt-3"style="color:#f6b93b";></i>
+                            </div>
+                            <div class="pi">
+                                <p>Sports</p>
+                        
+                                </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                            <div class="ilogo">
+                                    <i class="fas fa-gamepad fa-3x mt-3 "style="color:#4a69bd"></i>
+                                    
+                                
+                                </div>
+                                <div class="pi">
+                                    <p>Entertainment</p>
+                        
+                                    </div>
+                        </div>
+        
+        </div>
+    </div>
+    <footer class="myu mt-5">
+        <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>
+                        About Pioxno
+                </h4>
+                 <ul>
+                       
+                       <li> Company</li>
+                       <li> Careers</li>
+                       <li> Events</li>
+                       <li> Blogs</li>
+                       <li>Investor Relations</li>
+                       <li>Trust & Security</li>
+
+                 </ul>
+            </div>
+            <div class="col-md-3">
+                    <h4>
+                            Resouces
+                    </h4>
+                    <ul>
+                        <li>
+                                Technical Support</li>
+                             <li>   Purchasing & licensing</li>
+                              <li>  Atlassian Community</li>
+                           <li> Knowledge base</li>
+                               <li> Marketplace</li>
+                               <li> My Account</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>
+                        Services
+
+                    </h4>
+                    <ul>
+                        <li>
+                                Web Development
+                        </li>
+                        <li>
+                                Qa & Testing
+                        </li>
+                        <li>
+                                     Mobile App Development
+                        </li>
+                        <li>
+                                   Database Management
+                        </li>
+                        <li>
+                                 Enterprise Software Development
+                        </li>
+                        <li>
+                              It Services
+                        </li>
+                    </ul>
+                
+                    </div> 
+                    <div class="col-md-3">
+                        <h4>
+                            Technologies
+                        </h4>
+                        <ul>
+                            <li>
+                                Machine Learning
+                            </li>
+                            <li>
+                                Artificial inteligent
+                            </li>
+                            <li>
+                                Deep Learning
+                            </li>
+                            <li>
+                                Data Science 
+                            </li>
+                        </ul>
+                    </div>  
+        </div></div>
+        <hr>
+        <h6 style="text-align:center;">Copyright @Pioxno 2019</h6>
+    </footer>
+    
+    
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="text/javascript">
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+           
+      var  nav = document.getElementById('nav');
+      
+      
+      window.onscroll = function(){
+        if (window.pageYOffset >100) {
+          
+          nav.style.background = "white";
+          nav.style.boxShadow = "0px 0px 10px black";
+          document.getElementById("font").style.color = "black";
+          document.getElementById("fo").style.color = "black";
+          document.getElementById("fone").style.color = "black";
+          document.getElementById("fot").style.color = "black";
+          document.getElementById("fon").style.color = "black";
+          document.getElementById("for").style.color = "black";
+          
+        }
+        else{
+          nav.style.background = "transparent";
+          nav.style.boxShadow = "none";
+          document.getElementById("font").style.color = "white";
+          nav.style.transition="1s";
+          document.getElementById("fo").style.color = "white";
+          document.getElementById("fone").style.color = "white";
+          document.getElementById("fot").style.color = "white";
+          document.getElementById("fon").style.color = "white";
+          document.getElementById("for").style.color = "white";
+          
+        }
+      }
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
