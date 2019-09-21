@@ -1,0 +1,551 @@
+.heading{
+    font-family: 'PT Serif', serif;
+    color: royalblue;
+}
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 93, 184);
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+border-bottom: 2px solid royalblue;
+color: #E91E63;
+width: 100px;
+}
+#Products , #Service , #Client , #Career{
+    width: 100%;
+    
+}
+.icons{
+    width: 100px;
+    height: 100px;
+    background:rgb(52, 88, 194);
+    border-radius: 30%;
+    margin-left: 40%;
+    animation: rotate infinite;
+}
+.icons i{
+    color: rgb(224, 228, 233);
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        color:black;
+    }
+    50%{
+        transform: rotate(360deg);
+        background: #E91E63;
+        color: white;
+    }
+    100%{
+        transform: rotate(0deg);
+        background: rgb(9, 36, 122);
+        color: white;
+    }
+}
+#img{
+    margin-top: 200px;
+}
+.content{
+    margin-top: 380px;
+}
+.desc{
+    font-size: 18px;
+    margin: 20px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(83, 83, 83);
+}
+
+
+#para{
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(174, 175, 175);
+   text-align:center;
+   font-size: 25px;
+
+}
+#nav{
+    background: transparent;
+}
+
+@media screen and (max-width:600px){
+    #contact{
+        display: block;
+    }
+    #img{
+        position: absolute;
+        top:-100px;
+    }
+    .content{
+        margin-top: 0px;
+        position: absolute;
+        top:600px;
+    }
+    #para{
+        margin-top: 50px; 
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(199, 205, 223);
+       text-align:center;
+       font-size: 20px;
+    
+    }
+}
+
+.homeb{
+    width: 100%;
+    height: 800px;
+    padding-bottom:200px;
+   background:linear-gradient(45deg,rgb(39, 53, 176),royalblue );
+}
+.industry{
+   width: 100%;
+   height:auto;
+   padding-bottom: 30px;
+   background:white;
+   
+}
+
+.About{
+   width: 100%;
+   height: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color:rgb(241, 240, 240);
+}
+
+nav ul li a{
+   margin-left: 60px;
+   font-size: 21px;
+   color: royalblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tag{
+    font-size:  15px;
+    color: rgb(217, 231, 236);margin:10px;font-size:24px;text-align: center;
+ }
+h1{
+   margin-top: 200px;
+   margin-left: 100px;
+   font-size: 34px;
+   color: aliceblue;
+}
+#btn
+{
+    border: 1px solid white;background: transparent;margin-left:45%;
+}
+
+   .row{
+       margin-left:0px;
+       margin-right:0px;
+   }
+
+.btn{
+   margin-top: 40px;
+   color: rgb(255, 255, 255);
+   background: white;
+   border:2px solid rgb(255, 255, 255);
+   background: transparent;
+   margin-left:120px;
+}
+.footercon{
+   width: 100%;
+   height: auto;
+
+   margin-top: 30px;
+   
+}
+
+
+
+.sre1{
+   margin-top: 50px;
+   width: 100%;
+   height: 500px;
+   background-image:url(https://files.stocky.ai/uploads/2019/03/image-Business-team-meeting-in-office-stocky-ai-26963080.jpg);
+   background-size: 100% 80%;
+   background-repeat: no-repeat;
+
+}
+.sre{
+   margin-top: 50px;
+   width: 100%;
+   height: 500px;
+   background-image:url(https://blog.leadquizzes.com/images/meeting.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 80%;
+
+}
+.promo{
+    padding-top: 400px; text-align: center;
+}
+.heading{
+font-family: monospace;
+text-align: center;
+color: #E91E63;
+font-size: 25px;
+}
+,.sre:hover{
+   background-color: transparent black;
+   opacity:.7;
+}
+.srdb{
+   background-color black;
+}
+h1, p{
+animation-delay:1s;
+}
+.btn{
+    animation-delay: 2s;
+}
+.circles{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    top: 0%;
+    left:0%;
+}
+.circle{
+   bottom: 0%;
+   position: absolute;
+   opacity: .5;
+   height: 20px;
+   width: 20px;
+   background-color: rgb(38, 52, 133);
+   border-radius: 50%;
+   animation: mov 5s infinite;
+}
+.circle:nth-child(1){
+    animation-duration:8s;
+    width: 40px;
+    height: 40px;
+    left: 10%;
+
+}
+.circle:nth-child(2){
+    animation-duration:5s;
+    animation-delay: 1s;
+    width: 30px;
+    height: 30px;
+    left: 30%;
+
+}
+.circle:nth-child(3){
+    animation-duration:7s;
+    animation-delay: 0s;
+    width: 35px;
+    height: 35px;
+    left: 40%;
+
+}
+.circle:nth-child(4){
+    animation-duration:10s;
+    animation-delay: 1s;
+    width: 30px;
+    height: 30px;
+    left: 60%;
+
+}
+.circle:nth-child(5){
+    animation-duration:6s;
+    animation-delay: 2s;
+    width: 50px;
+    height: 50px;
+    left: 65%;
+
+}
+.circle:nth-child(6){
+    animation-duration:5s;
+    animation-delay: 1s;
+    width: 100px;
+    height:100px;
+    left: 70%;
+
+}
+
+.circle:nth-child(7){
+    animation-duration:8s;
+    animation-delay: 0s;
+    width: 20px;
+    height: 20px;
+    left: 80%;
+
+}
+.circle:nth-child(8){
+    animation-duration:10s;
+    animation-delay: 1s;
+    width: 69px;
+    height: 69px;
+    left: 15%;
+
+}
+.circle:nth-child(9){
+    animation-duration:4s;
+    animation-delay: 1s;
+    width: 75px;
+    height: 75px;
+    left: 20%;
+
+}
+.circle:nth-child(10){
+    animation-duration:8s;
+    animation-delay: 2s;
+    width: 37px;
+    height: 37px;
+    left: 85%;
+
+}
+
+.circle:nth-child(20){
+    animation-duration:8s;
+    animation-delay: 0s;
+    width: 54px;
+    height: 54px;
+    left: 69%;
+
+}
+.circle:nth-child(12){
+    animation-duration:5s;
+    animation-delay: 1s;
+    width: 43px;
+    height: 43px;
+    left: 13%;
+
+}
+.circle:nth-child(13){
+    animation-duration:7s;
+    animation-delay: 1s;
+    width: 35px;
+    height: 35px;
+    left: 74%;
+
+}
+.circle:nth-child(14){
+    animation-duration:10s;
+    animation-delay: 0s;
+    width: 30px;
+    height: 30px;
+    left: 36%;
+
+}
+.circle:nth-child(15){
+    animation-duration:6s;
+    animation-delay: 2s;
+    width: 25px;
+    height: 25px;
+    left: 55%;
+
+}
+.circle:nth-child(16){
+    animation-duration:5s;
+    animation-delay: 0s;
+    width: 60px;
+    height:60px;
+    left: 38%;
+
+}
+
+.circle:nth-child(17){
+    animation-duration:8s;
+    animation-delay: 2s;
+    width: 20px;
+    height: 20px;
+    left: 40%;
+
+}
+.circle:nth-child(18){
+    animation-duration:10s;
+    animation-delay: 1s;
+    width: 65px;
+    height: 65px;
+    left: 35%;
+
+}
+.circle:nth-child(19){
+    animation-duration:4s;
+    animation-delay: 1s;
+    width: 45px;
+    height: 45px;
+    left: 25%;
+
+}
+.circle:nth-child(11){
+    animation-duration:8s;
+    animation-delay: 0s;
+    width: 30px;
+    height: 30px;
+    left: 15%;
+
+}
+
+@keyframes mov{
+   0%{
+       transform:translateX(0);
+       bottom: -100px;
+      
+   }
+   50%{
+    transform:translateX(100px);
+   }
+ 
+   100%{
+    transform:translateX(-200);
+    bottom: 1080px;
+   }
+   
+}
+.ourservice{
+    font-size: 18px;
+    text-align: center;
+}
+.social{
+   margin-left: 400px;
+}
+
+footer h4{
+   color:royalblue;
+   font-size: 19px;
+}
+.fcontent{
+   font-size: 12px;
+   color: rgb(169, 202, 230);
+   margin-top: 1px;
+   
+
+}
+.fcontent:hover {
+    color: white;
+}
+.grids{
+   width: 100%;
+   height:auto;
+   max-height: 250px;
+   padding-bottom: 100px;
+   background:transparent;
+
+}
+footer{
+   width: 100%;
+   height: auto;
+   border-top: 3px solid royalblue;
+   background: linear-gradient(45deg,rgb(1, 1, 32),rgb(6, 6, 24));
+}
+p{
+   font-size: 30px;
+}
+footer h6{
+     color: rgb(238, 235, 230);
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+footer img{
+   justify-content: space-between;
+   
+}
+.conback{
+   background-color: royalblue;
+}
+
+#UserID , #Username , #Message{
+   padding: 20px 30px 10px 10px;
+   margin-top: 20px;
+   margin-left: 30px;
+  border-radius: 20px;
+  border: 1px solid  royalblue ;
+  
+}
+#button{
+   border-radius: 15px;
+   color: royalblue;
+   margin-bottom: 30px;
+   border: 1px solid  royalblue ;
+}
+#button:hover{
+   
+   border-top-right-radius:0px;
+   color: white;
+}
+.contacthead h4{
+   margin-top: 30px;
+   margin-left: 90px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: royalblue;
+}
+::placeholder{
+   padding: 0px 10px;
+}
+hr{
+   color: black;
+   width: 2px;
+}
+@media only screen and (max-width: 600px) {
+ .homeb{
+ height: 100%;
+ padding-bottom: 100%;
+ }
+ #btn
+{
+    border: 1px solid white;background: transparent;margin-left:40%;
+}
+.ourservice{
+    font-size: 14px;
+}
+h1{
+    font-size: 20px;
+}
+ .promo{
+    padding-top: 300px; text-align: center;
+    font-size: 25px;
+}
+.tag{
+   font-size:  15px;
+   color: rgb(217, 231, 236);margin:10px;font-size:15px;text-align: center;
+}
+ h2{
+     text-align: center;
+     margin-left: 50px;
+ }
+ .numbers{
+     margin-left: 120px;
+ }
+ .social{
+     margin: 10px 100px 50px 100px;
+ }
+ .fcontent ,h4{
+     margin-left: 100px;
+ }
+ h1{
+     font-size: 28px;
+     margin-left: 30px;
+     margin-top: 100px;
+ }
+ h3{
+   font-size: 25px;
+     margin-left: 40px;
+ }
+ .btn{
+     margin-left: 70px;
+ }
+ footer h6{
+     color: wheat;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+footer{
+   height:auto;
+}
+.sre,.sre1{
+   background-size: 180% 80%;
+}
+}
